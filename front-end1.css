@@ -1,0 +1,58 @@
+body
+{
+  background:url("D:/Ownerstown/superheros.jpg");
+}
+.keypad {
+  margin: auto;
+  
+  position: absolute;
+  top:50%;
+  left:55%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+h1
+{
+  text-align: center;
+  color: red;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 60px;
+  padding: 10px;
+}
+#space
+{
+  margin-left: 180px;
+}
+#send
+{
+  margin-left: 10px;
+}
+input
+{
+  font-size: 18px;
+  width: 80%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+
+}
+input:focus
+{
+  background: #f7f7f7;
+  border:3px solid #2980b9;
+  outline: none;
+  }
+#output{
+  padding-left: 20px;
+}
+p
+{
+  color: red;
+  margin-left: 50px; 
+}
